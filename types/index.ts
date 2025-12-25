@@ -1,5 +1,5 @@
 export interface Project {
     title: string;
-    descripcion: string;
+    description: string;
     tech: string[];
 }
