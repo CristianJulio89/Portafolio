@@ -10,7 +10,7 @@ export default function CertificationsPage() {
                 </li>
 
                 <li className="border rounded-md p-4 hover:shadow-lg transition">
-                    <h3 className="font-semibold text-lg mb-2">Formaciòn en Análisis de Datos</h3>
+                    <h3 className="font-semibold text-lg mb-2">Formación en Análisis de Datos</h3>
                     <p className="text-gray-700 mb-1">Procesamiento y visualización de datos</p>
                 </li>
 

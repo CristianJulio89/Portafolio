@@ -6,7 +6,7 @@ const navItems = [
     { name: "Sobre mí", href: "/about"},
     { name: "Proyectos", href: "/projects"},
     { name: "Certificaciones", href: "/certifications"},
-    { name: "Contacto", href: "/cotact"}
+    { name: "Contacto", href: "/contact"}
 ];
 
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
                         <li key={item.name}>
                             <Link
                             href = {item.href}
-                            className="text-gray-600 hover:text-black transition">
+                            className="hidden md:flex gap-6 text-sm text-gray-600 hover:text-black transition">
                                 {item.name}
                             </Link>
                         </li>
